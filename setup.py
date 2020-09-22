@@ -25,12 +25,12 @@ test_requirements = [
 
 setup(
     name='asyncsip',
-    version='0.2.0',
+    version='0.1.0',
     description='SIP support for AsyncIO',
     long_description=readme + '\n\n' + history,
-    author='Ludovic Gasc (GMLudo)',
-    author_email='gmludo@gmail.com',
-    url='https://github.com/Eyepea/aiosip',
+    author='Vlad Veselov (moronvv)',
+    author_email='moronvv@gmail.com',
+    url='https://github.com/MoronVV/asyncsip',
     packages=[
         'aiosip',
     ],
