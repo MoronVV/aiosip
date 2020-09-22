@@ -25,17 +25,17 @@ test_requirements = [
 
 setup(
     name='asyncsip',
-    version='0.1.0',
+    version='0.1.2',
     description='SIP support for AsyncIO',
     long_description=readme + '\n\n' + history,
     author='Vlad Veselov (moronvv)',
     author_email='moronvv@gmail.com',
     url='https://github.com/MoronVV/asyncsip',
     packages=[
-        'aiosip',
+        'asyncsip',
     ],
-    package_dir={'aiosip':
-                 'aiosip'},
+    package_dir={'asyncsip':
+                 'asyncsip'},
     include_package_data=True,
     install_requires=requirements,
     license="Apache 2",
