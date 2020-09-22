@@ -40,6 +40,8 @@ nike_tests
 .pydevproject
 .idea
 *.iml
+.vim
+Session.vim
 
 # Complexity
 output/*.html
@@ -52,4 +54,5 @@ docs/_build
 venv
 pyvenv
 .cache/
+.python-version
 
